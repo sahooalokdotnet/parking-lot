@@ -1,4 +1,6 @@
 package com.scalar.alok.oops.dtos;
 
-public class ResponseStatus {
+public enum ResponseStatus {
+    SUCCESS,
+    FAILURE,
 }

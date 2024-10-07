@@ -1,9 +1,10 @@
 package com.scalar.alok.oops.controller;
 
-import com.scalar.alok.oops.model.Ticket;
+import com.scalar.alok.oops.dtos.IssueTicketRequestDTO;
+import com.scalar.alok.oops.dtos.IssueTicketResponseDTO;
 
-public class TicketController {
-    public Ticket issueTicket(Ticket ticket) {
-
+public class  TicketController {
+    public IssueTicketResponseDTO issueTicket(IssueTicketRequestDTO requestDTO) {
+        return null;
     }
 }
